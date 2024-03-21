@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">shop</a>
@@ -58,7 +58,89 @@
 <header class="row m-5">
   <h1 class="col display-2 koffiebruin text-center">may the coffee<br>be with you</h1>
 </header>
+
+<div class="container">
+  <div class="row">
+    <main class="col-md-9">
+      <section id="shopintro" class="row">
+        <article class="col-12 mb-3">
+          <h2 class="text-uppercase fs-4 fw-bolder pt-3">Contact</h2>
+          <p>Vul het registratieformulier in. <br> Velden met een * zijn verplicht.</p>
+        </article>
         <hr>
+        <h2 class="text-uppercase fs-6 fw-bolder pt-3">Gegevens</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">voornaam*</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">achternaam*</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-6">
+            <label class="form-label">mobiel</label>
+            <input type="text" class="form-control" placeholder="0412 34 56 78">
+          </div>
+          <div class="col-6">
+            <label for="inputAddress2" class="form-label">geboortedatum</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="dd/mm/jjjj">
+          </div>
+          <h2 class="text-uppercase fs-6 fw-bolder pt-3">Accountgegevens</h2>
+          <div class="col-md-12">
+            <label class="form-label">e-mail*</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">paswoord*</label>
+            <input type="password" placeholder="min.8 karakters, 1 cijfer, 1 hoofdletter" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">bevestig paswoord*</label>
+            <input type="password" class="form-control">
+          </div>
+          <h2 class="text-uppercase fs-6 fw-bolder pt-3">Adresgegevens</h2>
+          <div class="col-md-12">
+            <label class="form-label">adres*</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-3">
+            <label class="form-label">postcode*</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6">
+            <label for="inputAddress2" class="form-label">stad*</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-3">
+            <label for="inputState" class="form-label">Kies een land*</label>
+            <select id="inputState" class="form-select">
+              <option selected>Belgie</option>
+              <option>Nederland</option>
+            </select>
+          </div>
+          <h2 class="text-uppercase fs-6 fw-bolder pt-3">Koffie-Achtergrond</h2>
+          <div class="col-6">
+          <label for="inputState" class="form-label">Ik koop</label>
+          <select id="inputState" class="form-select">
+            <option selected>koffiebonen</option>
+            <option>overig</option>
+          </select>
+        </div>
+        <div class="col-6">
+          <label for="inputState" class="form-label">en ben fan van het merk</label>
+          <select id="inputState" class="form-select">
+            <option selected>Illy</option>
+            <option>overig</option>
+          </select>
+        </div>
+        <label for="customRange1" class="form-label">hoe tevreden ben je van ons?</label>
+        <input type="range" class="form-range" id="customRange1">
+        </div>
+        <br>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">verzenden</button>
+        </div>      
     <aside class="col-md-3">
       <h2 class="text-uppercase fs-4 fw-bolder pt-3">contact</h2>
       <p>COFFEE shop<br>
